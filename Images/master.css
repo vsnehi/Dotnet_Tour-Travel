@@ -1,0 +1,171 @@
+.bkrndtop {
+	BACKGROUND-IMAGE: url(http://www.purdue.edu/business/masterpages/images/Background.gif); BACKGROUND-REPEAT: repeat-y
+}
+.purduetext {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; TEXT-TRANSFORM: none; COLOR: #e0d5c5; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.purduelinks {
+	FONT-SIZE: 8pt; COLOR: #e0d5c5; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.purduelinks A {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #e0d5c5; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.purduelinks A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #e0d5c5; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.purduelinks A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #e0d5c5; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.purduelinks A:hover {
+	TEXT-DECORATION: underline
+}
+.navlinks A {
+	FONT-SIZE: 9pt; TEXT-TRANSFORM: none; COLOR: #e0d5c5; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.navlinks A:active {
+	FONT-SIZE: 9pt; TEXT-TRANSFORM: none; COLOR: #e0d5c5; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.navlinks A:visited {
+	FONT-SIZE: 9pt; TEXT-TRANSFORM: none; COLOR: #e0d5c5; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.navlinks A:hover {
+	TEXT-DECORATION: underline
+}
+.nounderline {
+	TEXT-DECORATION: none
+}
+.quicklinks {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.quicklinks A {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.quicklinks A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.quicklinks A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.quicklinks A:hover {
+	TEXT-DECORATION: underline
+}
+.footerlinks {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.footerlinks A {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.footerlinks A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.footerlinks A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.footerlinks A:hover {
+	TEXT-DECORATION: underline
+}
+.copyrightfooter {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.copyrightfooter A {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.copyrightfooter A:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.copyrightfooter A:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-STYLE: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.copyrightfooter A:hover {
+	TEXT-DECORATION: underline
+}
+bodycopy {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+P {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TR {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+UL {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+LI {
+	FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.bodycopy A:link {
+	COLOR: #0000ff; TEXT-DECORATION: underline
+}
+.bodycopy A:visited {
+	COLOR: #0000ff; TEXT-DECORATION: underline
+}
+.bodycopy A:active {
+	COLOR: #d2691e; TEXT-DECORATION: underline
+}
+.footer {
+	BORDER-TOP: #000000 1px solid
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.FormBox {
+	FONT-SIZE: 8pt; BACKGROUND: #ffffff; COLOR: #000000; BORDER-TOP-STYLE: inset; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-RIGHT-STYLE: inset; BORDER-LEFT-STYLE: inset; BORDER-BOTTOM-STYLE: inset
+}
+.FormBtn {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; BORDER-LEFT-COLOR: #b1946c; BACKGROUND: #ffffff; BORDER-BOTTOM-COLOR: #b1946c; COLOR: #000000; BORDER-TOP-STYLE: solid; BORDER-TOP-COLOR: #b1946c; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BORDER-RIGHT-STYLE: solid; BORDER-LEFT-STYLE: solid; BORDER-RIGHT-COLOR: #b1946c; BORDER-BOTTOM-STYLE: solid; border-size: 1px
+}
+.smalltext {
+	FONT-SIZE: 8pt; FONT-FAMILY: verdana, arial, helvetica, sans-serif
+}
+.required {
+	COLOR: #ff0000
+}
+#content {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px
+}
+#printReady {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px
+}
+#contentOwner {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px
+}
+#navBar {
+	BORDER-RIGHT: #cccccc 0px solid; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 162px; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 0px solid
+}
+.searchBorder {
+	BORDER-RIGHT: #b1946c 1px dashed; BORDER-TOP: #b1946c 1px dashed; BORDER-LEFT: #b1946c 1px dashed; BORDER-BOTTOM: #b1946c 1px dashed
+}
+.borderleft {
+	BORDER-LEFT: #b1946c 1px dashed
+}
+.borderbottom {
+	BORDER-BOTTOM: #b1946c 1px dashed
+}
+.bordernavleft {
+	BORDER-LEFT: #000000 1px dashed
+}
+.bordernavleft {
+	BORDER-LEFT: #000000 1px dashed
+}
+.sidelinks {
+	FONT-SIZE: 10pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.sidelinks A {
+	FONT-SIZE: 10pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.sidelinks A:active {
+	FONT-SIZE: 10pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.sidelinks A:visited {
+	FONT-SIZE: 10pt; TEXT-TRANSFORM: none; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+.sidelinks A:hover {
+	TEXT-DECORATION: underline
+}

@@ -1,0 +1,269 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMaster.master.cs" Inherits="Admin_AdminMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link rel="stylesheet" type="text/css" href="../images/master.css" />
+
+    <script language="JavaScript" type="text/javascript" src=""></script>
+
+    <style type="text/css">
+        body
+        {
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+        .TData
+        {
+        	font-size:x-small;
+        	color:Black;
+        	width:80px;
+        	text-align:center;
+        	font-weight:bold;
+            	
+        }
+        .TsData
+        {
+            font-size:x-small;
+        	color:Red;
+        	width:100px;
+        	font-weight:bold;	
+        	}
+        .style
+        {
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        .style1
+        {
+            font-size: x-small;
+            color: Black;
+            width: 98px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .style2
+        {
+            font-size: x-small;
+            color: Black;
+            width: 99px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .style3
+        {
+            font-size: x-small;
+            color: Black;
+            width: 96px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .bgcolor
+        {
+        	background-color:Black;
+        }
+    </style>
+    <title>Travel Web Site</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bgcolor" onload="firstFocus()" bgcolor="#ffffff">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <table width="100%" bgcolor="#000000" border="0">
+        <tbody>
+            <tr>
+                <td valign="top" width="158" rowspan="2">
+                    <%-- <img height="79" alt="Purdue University" src="images/webSignature.gif"
+                        width="174" border="0">--%>
+                </td>
+                <td class="purduetext" valign="top">
+                    <table width="100%">
+                        <tr>
+                            <td style="font-weight: bold">
+                                <marquee direction="RIGHT" behavior="ALTERNATE">Voyage</marquee>
+                            </td>
+                            <td style="font-weight: bold">
+                                <marquee direction="LEFT" behavior="ALTERNATE">Voyage</marquee>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" height="66">
+                    <img class="" alt="Travel" hspace="0" src="../Images/PageTitle.jpg" align="right" vspace="0px"
+                        border="0">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table height="142px" cellspacing="0" cellpadding="0" width="100%" border="0">
+     
+        <tbody>
+            <tr>
+                <td valign="top" align="left" width="163" rowspan="5">
+                    <table cellspacing="0" cellpadding="0" width="95%" align="center" border="0">
+                        <tr>
+                            <td valign="top">
+                            
+                                <div align="center">
+                                <p class="style">
+                                Travel as you like
+                                </p>
+                                    <p align="center">
+                                        <img class="" alt="Purdue University 727" src="../images/purdueplane.gif" border="0"></p>
+                                    <p align="center">
+                                        <img class="" alt="Purdue University Automobile" src="../images/purdueauto.gif" border="0"></p>
+                                    <p align="center">
+                                        <img class="" alt="Hotel" src="../images/hotel.gif" border="0"></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td valign="top">
+                    <table width="100%" style="background-color: Gray">
+                    <tr>
+                    <td>
+                        <asp:Menu ID="AdminMenu" runat="server" Orientation="Horizontal" 
+                            Font-Bold="True" Font-Size="X-Small" ForeColor="Black" Height="16px" 
+                            Width="804px">
+                            <Items>
+                                <asp:MenuItem Text="|||" Value="|||"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="~/Admin/AdminHome.aspx" Text="Home" Value="Home">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="||" Value="||"></asp:MenuItem>
+                                <asp:MenuItem Text="Manage Dept &amp; Desg" Value="Manage Dept &amp; Desg">
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmAddDepartment.aspx" 
+                                        Text="Create Department" Value="Create Department"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmModifyDepartment.aspx" 
+                                        Text="Edit Department" Value="Edit Department"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmAddDesignation.aspx" 
+                                        Text="Create Designation" Value="Create Designation"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmModifyDesignation.aspx" 
+                                        Text="Edit Designation" Value="Edit Designation"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="||" Value="||"></asp:MenuItem>
+                                <asp:MenuItem Text="Manage Employee" Value="Manage Employee">
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmAddEmployee.aspx" Text="Add Employee" 
+                                        Value="Add Employee"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmAddEmpPassport.aspx" 
+                                        Text="Add Emp PassPort" Value="Add Emp PassPort"></asp:MenuItem>
+                                    <asp:MenuItem Text="Edit Emp PassPort" Value="Edit Emp PassPort" 
+                                        NavigateUrl="~/Admin/FrmModifyEmployeePassport.aspx"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmModifyDept.aspx" 
+                                        Text="Edit Emp Department" Value="Edit Emp Department"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmModifyDesg.aspx" 
+                                        Text="Edit Emp Desgination" Value="Edit Emp Desgination"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="||" Value="||"></asp:MenuItem>
+                                <asp:MenuItem Text="Countries &amp; Hotels" Value="New Item">
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmAddCountries.aspx" 
+                                        Text="Add New Country Information" Value="Add New Country Information">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmModifyCountries.aspx" 
+                                        Text="Edit Country Information" Value="Edit Country Information">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmAddCountriesVisas.aspx" 
+                                        Text="Countries &amp; Visas" Value="Countries &amp; Visas"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmAddHotels.aspx" 
+                                        Text="Add Hotels Information" Value="Add Hotels Information"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmModifyHotels.aspx" 
+                                        Text="Edit Hotels Information" Value="Edit Hotels Information">
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="||" Value="New Item"></asp:MenuItem>
+                                <asp:MenuItem Text="Visa &amp; Embrassy" Value="New Item">
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmAddVisaType.aspx" 
+                                        Text="Add Visa Type Info" Value="Add Visa Type Info"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmModifyVisaType.aspx" 
+                                        Text="Edit Visa Type Info" Value="Edit Visa Type Info"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmAddForiegnEmbassy.aspx" 
+                                        Text="Add Embassy Information" Value="Add Embassy Information">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/FrmModifyForiegnEmbassy.aspx" 
+                                        Text="Edit Embassy Information" Value="Edit Embassy Information">
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="||" Value="New Item"></asp:MenuItem>
+                                <asp:MenuItem Text="Search" Value="Search">
+                                    <asp:MenuItem NavigateUrl="~/Admin/frmEmployeeSearch.aspx" 
+                                        Text="Employee Search" Value="Employee Search"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/frmPassportSearch.aspx" 
+                                        Text="Passport Search" Value="Passport Search"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/frmTicketSearch.aspx" Text="Ticket Search" 
+                                        Value="Ticket Search"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="||" Value="||"></asp:MenuItem>
+                                <asp:MenuItem Text="Reports" Value="Reports">
+                                    <asp:MenuItem NavigateUrl="~/Admin/frmReportEmployee.aspx" 
+                                        Text="Report Employee Details" Value="Report Employee Details">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/frmReportEmployeeWork.aspx" 
+                                        Text="Report Employee Work Details" Value="Report Employee Work Details">
+                                    </asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/frmReportEmployeeVisa.aspx" 
+                                        Text="Report Employee Visa Details" Value="Report Employee Visa Details">
+                                    </asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="||" Value="||"></asp:MenuItem>
+                                <asp:MenuItem Text="SignOut" Value="New Item" NavigateUrl="~/LogOut.aspx"></asp:MenuItem>
+                                <asp:MenuItem Text="|||" Value="|||"></asp:MenuItem>
+                            </Items>
+                        </asp:Menu>
+                    </td>
+                    </tr>
+                    </table> 
+                    
+                        <%--<tr>
+                            <td class="TData">
+                               <a href="AdminHome.aspx" class="TData">Home</a>
+                            </td>
+                            <td class="TData">
+                            <a href="FrmAddEmployee.aspx" class="TData">Employee</a>
+                            </td>
+                            <td class="TData">
+                              <a href="FrmAddDepartment.aspx" class="TData">Department</a>
+                            </td>
+                            <td class="TData">
+                               <a href="FrmAddDesignation.aspx" class="TData">Designation</a>
+                            </td>
+                            <td class="TData">
+                              <a href="FrmAddEmpPassport.aspx" class="TData">Emp Passport</a>
+                            </td>
+                             <td class="style1">
+                               <a href="FrmAddCountriesVisited.aspx" class="TData">Countries Visited</a>
+                            </td>
+                           <td class="TData">
+                            <a href="FrmAddVisaType.aspx" class="TData">Visa Type</a>
+                            </td>
+                            
+                        </tr>--%>
+                        
+                   
+                    <table style="background-color:#FFCC66" height="390px" cellspacing="0" cellpadding="0" width="100%" border="0">
+                        <tr>
+                            <td class="footerlinks" valign="top">
+                                <div >
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+            <td style="background-color:Black">
+            <br />
+            </td>
+            </tr>
+        </tbody>
+    </table>
+    </form>
+</body>
+</html>

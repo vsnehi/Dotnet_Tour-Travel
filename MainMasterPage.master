@@ -1,0 +1,149 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMasterPage.master.cs" Inherits="MainMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <link rel="stylesheet" type="text/css" href="images/master.css" />
+
+    <script language="JavaScript" type="text/javascript" src=""></script>
+
+    <style type="text/css">
+        body
+        {
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+        .TData
+        {
+        	font-size:x-small;
+        	color:Black;
+        	width:80px;
+        	text-align:center;
+        	font-weight:bold;
+            	
+        }
+        .TsData
+        {
+            font-size:x-small;
+        	color:Red;
+        	width:200px;
+        	font-weight:bold;	
+        	}
+        .style1
+        {
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        #form1
+        {
+            height: 556px;
+        }
+        .bgcolor
+        {
+        	background-color:Black;
+        }
+    </style>
+    <title>Travel Web Site</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bgcolor" onload="firstFocus()" bgcolor="#ffffff">
+    <form id="form1" runat="server">
+    <table width="100%" bgcolor="#000000" border="0">
+        <tbody>
+            <tr>
+                <td valign="top" width="158" rowspan="2">
+                    <%-- <img height="79" alt="Purdue University" src="images/webSignature.gif"
+                        width="174" border="0">--%>
+                </td>
+                <td class="purduetext" valign="top">
+                    <table width="100%">
+                        <tr>
+                            <td style="font-weight: bold">
+                                <marquee direction="RIGHT" behavior="ALTERNATE">Voyage</marquee>
+                            </td>
+                            <td style="font-weight: bold">
+                                <marquee direction="LEFT" behavior="ALTERNATE">Voyage</marquee>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" height="66">
+                    <img class="" alt="Voyage" hspace="0" src="images/PageTitle.jpg" align="right" vspace="0px"
+                        border="0">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table cellspacing="0" cellpadding="0" width="100%" border="0" 
+        style="height: 429px">
+        <tbody>
+            <tr>
+                <td valign="top" align="left" width="163" rowspan="5">
+                    <table cellspacing="0" cellpadding="0" width="95%" align="center" border="0">
+                        <tr>
+                            <td valign="top">
+                            
+                                <div align="center">
+                                <p class="style1" >
+                                Voyage as you like
+                                </p>
+                                    <p align="center">
+                                        <img class="" alt="Purdue University 727" src="images/purdueplane.gif" border="0"></p>
+                                    <p align="center">
+                                        <img class="" alt="Purdue University Automobile" src="images/purdueauto.gif" border="0"></p>
+                                    <p align="center">
+                                        <img class="" alt="Hotel" src="images/hotel.gif" border="0"></p>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td valign="top">
+                    <table width="100%" height="20px" style="background-color: Gray">
+                        <tr>
+                            <td class="TData">
+                               <a href="Default.aspx" class="TData">Home</a> 
+                            </td>
+                            <td class="TData">
+                                <a href="AboutUs.aspx" class="TData">About Us</a>
+                            </td>
+                            <td class="TData">
+                                <a href="ContactUs.aspx" class="TData">Contact Us</a>
+                            </td>
+                            <td class="TData">
+                               <a href="Login.aspx" class="TData">SignIn</a>
+                            </td>
+                            <td class="TsData">
+                               <%=System.DateTime.Now.ToLongDateString().ToString()%>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="background-color:#FFCC66" height="390px" cellspacing="0" 
+                        cellpadding="0" width="100%" border="0">
+                        <tr>
+                            <td class="footerlinks" valign="top">
+                                <div style="height: 13px" >
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+            <td style="background-color:Black">
+            </td>
+            </tr>
+             
+        </tbody>
+    </table>
+    </form>
+</body>
+</html>
